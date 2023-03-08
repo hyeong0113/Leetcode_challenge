@@ -33,7 +33,7 @@ class Solution {
         int count = 0;
         Integer candidate = null;
 
-        for (int num : nums) {
+        foreach(int num in nums) {
             if (count == 0) {
                 candidate = num;
             }
